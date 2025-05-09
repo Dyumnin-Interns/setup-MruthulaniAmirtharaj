@@ -7,5 +7,5 @@ module dut(
 assign y = a^b;
 initial begin
     $dumpfile("xor.vcd"); 
-    $dumpvars(0, dut); 
+    $dumpvars(0, xor); 
 endmodule
