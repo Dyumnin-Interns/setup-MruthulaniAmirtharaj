@@ -3,14 +3,14 @@ module xor_test(
         input wire b,
         output wire y
 );
-dut dut(
+xor_gate xor_gate(
         .a(a),
         .b(b),
         .y(y)
 );
 
 initial begin
-        $dumpfile("xor.vcd");
+        $dumpfile("waves.vcd");
         $dumpvars;
 end
 endmodule
