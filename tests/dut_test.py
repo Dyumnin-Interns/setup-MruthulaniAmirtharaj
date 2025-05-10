@@ -2,7 +2,6 @@
 import cocotb
 from cocotb.triggers import Timer
 
-
 @cocotb.test()
 async def dut_test(dut):
     a = (0,0,1,1)
