@@ -1,4 +1,4 @@
-/*module xor_test(
+module xor_test(
         input wire a,
         input wire b,
         output wire y
@@ -14,5 +14,3 @@ initial begin
         $dumpvars;
 end
 endmodule
-
-*/
